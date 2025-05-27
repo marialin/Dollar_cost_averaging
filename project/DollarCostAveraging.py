@@ -1,3 +1,14 @@
+# This python program answers the question on to 
+# invest X dollar amount into QQQ ETF within as year
+# when using dollar cost averaging,
+# 1. What is the best investment frequecy: daily, weekly or monthly.
+# 2. What is the best investment year
+# to maximise the total return and the average annual return
+# Note that the data file "data/HistoricalData_QQQ_2015_2025.csv" is dummy 
+#                         which only includes the header and column names. 
+# User needs to download the QQQ ETF historical daily price from nasdaq.com 
+#                         or Yahoo Finance. 
+
 import pandas as pd
 
 if __name__ == '__main__':
