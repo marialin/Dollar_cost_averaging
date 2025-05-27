@@ -1,11 +1,14 @@
-# Dollar_cost_averaging
-This repository aims to find out the best dollar cost averaging investment frequencies among daily, weekly, and monthly if invest X into QQQ within a year to maximise the total return. 
+# Dollar_Cost_Averaging
 
-To find out the best dollar cost averaging frequency if one wants to invest X dollar say USD10,000 into QQQ within a year, say starting from year Jan 2016 to Dec 2016, what dollar cost averaging frequency is the best, daily, weekly or monthly. 
+This repository aims to determine the best dollar-cost averaging (DCA) investment frequency—daily, weekly, or monthly—when investing a fixed amount into QQQ within a year, in order to maximize total returns.
 
-The good point about dollar cost averaging is when QQQ price is high, the same dollar amount buys less number of shares at high price. and the same dollar amount buys more shares when QQQ price is low. This solve the problem of timing the market. 
+To explore this, we analyze the performance of investing a fixed amount (e.g., USD 10,000) into QQQ over the course of a year—for example, from January 2016 to December 2016—using different DCA frequencies: daily, weekly, and monthly.
 
-One may also worry how if he/she started investing not at a good starting year. Therefore, I repeat the study for starting the investing from different years. Can you guys guess 
-1. what is the best dollar cost averaging frequency &
-2. what is the best starting year
-for a good average annual return or total return 😄😬🤫?
+The advantage of dollar-cost averaging is that when QQQ’s price is high, the same dollar amount buys fewer shares, and when the price is low, it buys more shares. This approach helps mitigate the risks of market timing.
+
+But what if the starting year is not ideal? To address this concern, the study is repeated across different starting years to observe the impact on returns.
+
+Can you guess:
+
+1. Which dollar-cost averaging frequency performs best?
+2. Which starting year delivers the best average annual or total return? 😄😬🤫
