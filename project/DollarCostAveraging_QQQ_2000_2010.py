@@ -15,14 +15,6 @@ import pandas as pd
 
 if __name__ == '__main__':
 
-    # Load and sort QQQ data
-    # file_path = "data/QQQ_1999_2025.csv"
-    # df = pd.read_csv(file_path, skiprows=1)
-    # df['Date'] = pd.to_datetime(df['Date'])
-    # df = df.sort_values('Date')
-    # df = df[['Date', 'High']]
-    # df.reset_index(drop=True, inplace=True)
-
     # Load CSV with mixed-format dates and dirty numeric columns
     file_path = "data/QQQ_1999_2025.csv"
     df = pd.read_csv(file_path, skiprows=1)
@@ -109,7 +101,7 @@ if __name__ == '__main__':
                 'total_gain': total_gain
             }
 
-            print(f"Shares: {total_shares:.4f} | Final Value: ${final_value:,.2f} | Total Gain: ${total_gain:,.2f}")
+            print(f"Shares: {total_shares:.4f} | Value on 31 Dec 2010: ${final_value:,.2f} | Total Gain: ${total_gain:,.2f}")
 
         all_results[start_year] = year_results
 
@@ -123,7 +115,7 @@ if __name__ == '__main__':
                 'Frequency': freq,
                 'Shares': res['total_shares'],
                 'Initial Value': res['initial_value'],
-                "Today's Value": res['final_value'],
+                "Value on 31 Dec 2010": res['final_value'],
                 'Total Gain ($)': res['total_gain']
             })
 
