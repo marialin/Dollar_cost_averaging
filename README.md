@@ -70,7 +70,7 @@ Combine the datasets into a single .csv file with consistent column names for pr
 
 ### === FINAL SUMMARY TABLE ===
 
-| Start Year | Frequency | Shares    | Initial Value | Today's Value | Total Gain (\$) |
+| Start Year | Frequency | Shares    | Initial Value | Value on 31 Dec 2010 | Total Gain (\$) |
 | ---------- | --------- | --------- | ------------- | ------------- | --------------- |
 | 2000       | daily     | 22,236.80 | 2,000,000     | 1,214,574.19  | -785,425.81     |
 | 2000       | monthly   | 21,770.63 | 2,000,000     | 1,189,111.98  | -810,888.02     |
