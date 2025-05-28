@@ -1,0 +1,7 @@
+HistoricalData_1748267266011,,,,,
+Date,Close/Last,Volume,Open,High,Low
+# Above are the header and column names. 
+# Users can obtain QQQ historical data as follows:
+# For data from May 26, 2015 to May 23, 2025, download from nasdaq.com.
+# For data from January 1, 2000 to May 22, 2015, download year by year from marketwatch.com.
+# Combine the datasets into a single .csv file with consistent column names for proper analysis.
